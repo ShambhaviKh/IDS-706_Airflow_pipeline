@@ -90,7 +90,7 @@ This project implements a **retail ETL pipeline** using **Apache Airflow**. The 
 
 ### Install Prerequisites
 - Python 3.8+
-- Docker & Docker Compose (optional)
+- Docker & Docker Compose environment
 - Apache Airflow
 - PostgreSQL
 - Redis
@@ -146,7 +146,7 @@ airflow tasks logs retail_pipeline_dag process_orders 2024-11-05
 | Output Type          | File / Location                          |
 |----------------------|----------------------------------------|
 | Processed Data (CSV) | `data/processed/*.csv`                  |
-| Analytics Chart      | `analysis/spend_profit_by_group.png`    |
+| Analytics Chart      | `analysis/avg_order_value_by_segment.png`|
 | Database Table       | `fact_customer_products` in PostgreSQL  |
 | Redis Cache          | `product_group:{group}`, `last_update`  |
  
