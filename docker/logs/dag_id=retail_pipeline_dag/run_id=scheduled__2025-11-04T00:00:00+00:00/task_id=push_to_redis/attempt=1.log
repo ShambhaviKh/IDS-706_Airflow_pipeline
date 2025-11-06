@@ -1,0 +1,24 @@
+[2025-11-05T00:05:57.840+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-05T00:05:57.846+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_pipeline_dag.push_to_redis scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T00:05:57.849+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_pipeline_dag.push_to_redis scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T00:05:57.849+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-05T00:05:57.853+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): push_to_redis> on 2025-11-04 00:00:00+00:00
+[2025-11-05T00:05:57.855+0000] {standard_task_runner.py:72} INFO - Started process 150 to run task
+[2025-11-05T00:05:57.857+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_pipeline_dag', 'push_to_redis', 'scheduled__2025-11-04T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/retail_pipeline_dag.py', '--cfg-path', '/tmp/tmp2javp3go']
+[2025-11-05T00:05:57.858+0000] {standard_task_runner.py:105} INFO - Job 30: Subtask push_to_redis
+[2025-11-05T00:05:57.874+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_pipeline_dag.push_to_redis scheduled__2025-11-04T00:00:00+00:00 [running]> on host b3f73153904a
+[2025-11-05T00:05:57.898+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kedar' AIRFLOW_CTX_DAG_ID='retail_pipeline_dag' AIRFLOW_CTX_TASK_ID='push_to_redis' AIRFLOW_CTX_EXECUTION_DATE='2025-11-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-04T00:00:00+00:00'
+[2025-11-05T00:05:57.899+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-05T00:05:57.906+0000] {base.py:84} INFO - Retrieving connection 'local_postgres'
+[2025-11-05T00:05:57.909+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/providers/common/sql/hooks/sql.py:283: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2025-11-05T00:05:57.911+0000] {logging_mixin.py:190} INFO - Pushed segment:medium -> {'num_customers': 3, 'avg_spend': 175.16666666666666}
+[2025-11-05T00:05:57.912+0000] {logging_mixin.py:190} INFO - Pushed segment:high -> {'num_customers': 1, 'avg_spend': 300.0}
+[2025-11-05T00:05:57.912+0000] {logging_mixin.py:190} INFO - Pushed segment:low -> {'num_customers': 1, 'avg_spend': 40.0}
+[2025-11-05T00:05:57.912+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-11-05T00:05:57.915+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-05T00:05:57.915+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retail_pipeline_dag, task_id=push_to_redis, run_id=scheduled__2025-11-04T00:00:00+00:00, execution_date=20251104T000000, start_date=20251105T000557, end_date=20251105T000557
+[2025-11-05T00:05:57.957+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-05T00:05:57.965+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-05T00:05:57.966+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

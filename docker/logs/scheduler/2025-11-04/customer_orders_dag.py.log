@@ -1,0 +1,115 @@
+[2025-11-04T21:57:42.371+0000] {processor.py:186} INFO - Started process (PID=31) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:57:42.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:57:42.373+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:42.373+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:57:43.036+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:57:43.142+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.141+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:customer_orders_pipeline
+[2025-11-04T21:57:43.147+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.146+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:customer_orders_pipeline
+[2025-11-04T21:57:43.150+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.149+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:customer_orders_pipeline
+[2025-11-04T21:57:43.154+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.154+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:customer_orders_pipeline
+[2025-11-04T21:57:43.157+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.157+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:customer_orders_pipeline
+[2025-11-04T21:57:43.161+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.160+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:customer_orders_pipeline
+[2025-11-04T21:57:43.163+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.163+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:customer_orders_pipeline
+[2025-11-04T21:57:43.164+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.163+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:57:43.173+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.172+0000] {dag.py:3252} INFO - Creating ORM DAG for customer_orders_pipeline
+[2025-11-04T21:57:43.173+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:57:43.173+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:57:43.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.813 seconds
+[2025-11-04T21:58:13.489+0000] {processor.py:186} INFO - Started process (PID=37) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:58:13.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:58:13.494+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:58:13.494+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:58:13.678+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:58:13.687+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:58:13.686+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:58:13.690+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:58:13.690+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:58:13.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.216 seconds
+[2025-11-04T21:58:43.890+0000] {processor.py:186} INFO - Started process (PID=39) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:58:43.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:58:43.893+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:58:43.893+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:58:44.085+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:58:44.093+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:58:44.093+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:58:44.097+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:58:44.097+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:58:44.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.220 seconds
+[2025-11-04T21:59:14.191+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:14.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:59:14.193+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:14.192+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:14.359+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:14.367+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:14.367+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:59:14.371+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:14.371+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:59:14.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.190 seconds
+[2025-11-04T21:59:22.437+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:22.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:59:22.439+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:22.439+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:22.619+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:22.626+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:22.626+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:59:22.630+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:22.630+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:59:22.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.205 seconds
+[2025-11-04T21:59:23.466+0000] {processor.py:186} INFO - Started process (PID=45) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:23.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:59:23.469+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:23.468+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:23.652+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:23.659+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:23.659+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:59:23.663+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:23.663+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:59:23.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.211 seconds
+[2025-11-04T21:59:53.984+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:53.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T21:59:53.986+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:53.986+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:54.183+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T21:59:54.192+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:54.191+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T21:59:54.196+0000] {logging_mixin.py:190} INFO - [2025-11-04T21:59:54.196+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T21:59:54.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.226 seconds
+[2025-11-04T22:00:24.301+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:00:24.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:00:24.304+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:00:24.304+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:00:24.515+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:00:24.524+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:00:24.523+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:00:24.528+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:00:24.528+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T22:00:24.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.239 seconds
+[2025-11-04T22:00:54.796+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:00:54.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:00:54.804+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:00:54.804+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:00:54.978+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:00:54.986+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:00:54.986+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:00:54.990+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:00:54.990+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T22:00:54.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.206 seconds
+[2025-11-04T22:01:16.977+0000] {processor.py:186} INFO - Started process (PID=31) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:01:16.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:01:16.979+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:01:16.979+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:01:17.207+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:01:17.217+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:01:17.217+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:01:17.222+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:01:17.222+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T22:01:17.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.255 seconds
+[2025-11-04T22:01:47.543+0000] {processor.py:186} INFO - Started process (PID=33) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:01:47.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:01:47.546+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:01:47.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:01:47.801+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:01:47.821+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:01:47.821+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:01:47.828+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:01:47.828+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T22:01:47.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.300 seconds
+[2025-11-04T22:02:18.161+0000] {processor.py:186} INFO - Started process (PID=35) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:18.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:02:18.164+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:18.164+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:18.339+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:18.347+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:18.347+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:02:18.351+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:18.351+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T22:02:18.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.205 seconds
+[2025-11-04T22:02:48.493+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:48.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:02:48.496+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:48.495+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:48.680+0000] {processor.py:925} INFO - DAG(s) 'customer_orders_pipeline' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:48.688+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:48.688+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:02:48.692+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:48.692+0000] {dag.py:4156} INFO - Setting next_dagrun for customer_orders_pipeline to None, run_after=None
+[2025-11-04T22:02:48.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.211 seconds
+[2025-11-04T22:02:55.778+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:55.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_orders_dag.py for tasks to queue
+[2025-11-04T22:02:55.780+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:55.780+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:56.051+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.051+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-11-04T22:02:56.146+0000] {processor.py:925} INFO - DAG(s) 'retail_pipeline_dag' retrieved from /opt/airflow/dags/customer_orders_dag.py
+[2025-11-04T22:02:56.180+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.180+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:retail_pipeline_dag
+[2025-11-04T22:02:56.183+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.183+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:retail_pipeline_dag
+[2025-11-04T22:02:56.185+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.184+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:retail_pipeline_dag
+[2025-11-04T22:02:56.186+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.186+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:retail_pipeline_dag
+[2025-11-04T22:02:56.187+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.187+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:retail_pipeline_dag
+[2025-11-04T22:02:56.189+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.189+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:retail_pipeline_dag
+[2025-11-04T22:02:56.191+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.190+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:retail_pipeline_dag
+[2025-11-04T22:02:56.191+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.191+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-04T22:02:56.194+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.194+0000] {dag.py:3252} INFO - Creating ORM DAG for retail_pipeline_dag
+[2025-11-04T22:02:56.197+0000] {logging_mixin.py:190} INFO - [2025-11-04T22:02:56.197+0000] {dag.py:4156} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-03 00:00:00+00:00, run_after=2025-11-04 00:00:00+00:00
+[2025-11-04T22:02:56.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_orders_dag.py took 0.429 seconds

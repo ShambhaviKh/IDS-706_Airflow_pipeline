@@ -1,0 +1,14 @@
+[2025-11-06T03:07:19.802+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_pipeline_dag.merge_datasets manual__2025-11-06T03:07:17.471664+00:00 [queued]>
+[2025-11-06T03:07:19.805+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_pipeline_dag.merge_datasets manual__2025-11-06T03:07:17.471664+00:00 [queued]>
+[2025-11-06T03:07:19.805+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-11-06T03:07:19.808+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): merge_datasets> on 2025-11-06 03:07:17.471664+00:00
+[2025-11-06T03:07:19.811+0000] {standard_task_runner.py:57} INFO - Started process 113 to run task
+[2025-11-06T03:07:19.812+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'retail_pipeline_dag', 'merge_datasets', 'manual__2025-11-06T03:07:17.471664+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/retail_pipeline_dag.py', '--cfg-path', '/tmp/tmpav3lu1_7']
+[2025-11-06T03:07:19.814+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask merge_datasets
+[2025-11-06T03:07:19.828+0000] {task_command.py:415} INFO - Running <TaskInstance: retail_pipeline_dag.merge_datasets manual__2025-11-06T03:07:17.471664+00:00 [running]> on host 58acfe3d4e79
+[2025-11-06T03:07:19.849+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='shambhavi' AIRFLOW_CTX_DAG_ID='retail_pipeline_dag' AIRFLOW_CTX_TASK_ID='merge_datasets' AIRFLOW_CTX_EXECUTION_DATE='2025-11-06T03:07:17.471664+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-06T03:07:17.471664+00:00'
+[2025-11-06T03:07:19.850+0000] {logging_mixin.py:151} INFO - Processed files missing, skipping merge
+[2025-11-06T03:07:19.850+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-11-06T03:07:19.852+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=retail_pipeline_dag, task_id=merge_datasets, execution_date=20251106T030717, start_date=20251106T030719, end_date=20251106T030719
+[2025-11-06T03:07:19.868+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-11-06T03:07:19.877+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

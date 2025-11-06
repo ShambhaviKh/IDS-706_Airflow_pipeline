@@ -1,0 +1,40 @@
+[2025-11-05T00:05:53.810+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-05T00:05:53.817+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_pipeline_dag.orders_processing.process_orders scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T00:05:53.821+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_pipeline_dag.orders_processing.process_orders scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T00:05:53.822+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-05T00:05:53.828+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): orders_processing.process_orders> on 2025-11-04 00:00:00+00:00
+[2025-11-05T00:05:53.830+0000] {standard_task_runner.py:72} INFO - Started process 125 to run task
+[2025-11-05T00:05:53.832+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_pipeline_dag', 'orders_processing.process_orders', 'scheduled__2025-11-04T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/retail_pipeline_dag.py', '--cfg-path', '/tmp/tmpkbrs7ic0']
+[2025-11-05T00:05:53.833+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask orders_processing.process_orders
+[2025-11-05T00:05:53.850+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_pipeline_dag.orders_processing.process_orders scheduled__2025-11-04T00:00:00+00:00 [running]> on host b3f73153904a
+[2025-11-05T00:05:53.873+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kedar' AIRFLOW_CTX_DAG_ID='retail_pipeline_dag' AIRFLOW_CTX_TASK_ID='orders_processing.process_orders' AIRFLOW_CTX_EXECUTION_DATE='2025-11-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-04T00:00:00+00:00'
+[2025-11-05T00:05:53.874+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-05T00:05:53.884+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-11-05T00:05:53.887+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-05T00:05:53.888+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retail_pipeline_dag, task_id=orders_processing.process_orders, run_id=scheduled__2025-11-04T00:00:00+00:00, execution_date=20251104T000000, start_date=20251105T000553, end_date=20251105T000553
+[2025-11-05T00:05:53.933+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-05T00:05:53.943+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-05T00:05:53.943+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-11-05T20:11:45.033+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-05T20:11:45.039+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_pipeline_dag.orders_processing.process_orders scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T20:11:45.042+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_pipeline_dag.orders_processing.process_orders scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T20:11:45.043+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-05T20:11:45.047+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): orders_processing.process_orders> on 2025-11-04 00:00:00+00:00
+[2025-11-05T20:11:45.049+0000] {standard_task_runner.py:72} INFO - Started process 72 to run task
+[2025-11-05T20:11:45.051+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_pipeline_dag', 'orders_processing.process_orders', 'scheduled__2025-11-04T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/retail_pipeline_dag.py', '--cfg-path', '/tmp/tmp1j_2nama']
+[2025-11-05T20:11:45.053+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask orders_processing.process_orders
+[2025-11-05T20:11:45.075+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_pipeline_dag.orders_processing.process_orders scheduled__2025-11-04T00:00:00+00:00 [running]> on host 6b9d0d4ae17d
+[2025-11-05T20:11:45.097+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='shambhavi' AIRFLOW_CTX_DAG_ID='retail_pipeline_dag' AIRFLOW_CTX_TASK_ID='orders_processing.process_orders' AIRFLOW_CTX_EXECUTION_DATE='2025-11-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-04T00:00:00+00:00'
+[2025-11-05T20:11:45.100+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-05T20:11:45.193+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_pipeline_dag.py:25: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["Date Order was placed"] = pd.to_datetime(df["Date Order was placed"], dayfirst=True, errors='coerce')
+
+[2025-11-05T20:11:45.224+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_pipeline_dag.py:26: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["Delivery Date"] = pd.to_datetime(df["Delivery Date"], dayfirst=True, errors='coerce')
+
+[2025-11-05T20:11:45.809+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-11-05T20:11:45.814+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-05T20:11:45.814+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retail_pipeline_dag, task_id=orders_processing.process_orders, run_id=scheduled__2025-11-04T00:00:00+00:00, execution_date=20251104T000000, start_date=20251105T201145, end_date=20251105T201145
+[2025-11-05T20:11:45.836+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-05T20:11:45.847+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-05T20:11:45.848+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

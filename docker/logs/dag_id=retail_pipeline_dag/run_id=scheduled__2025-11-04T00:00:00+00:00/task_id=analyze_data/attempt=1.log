@@ -1,0 +1,22 @@
+[2025-11-05T00:05:56.707+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-05T00:05:56.713+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_pipeline_dag.analyze_data scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T00:05:56.715+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_pipeline_dag.analyze_data scheduled__2025-11-04T00:00:00+00:00 [queued]>
+[2025-11-05T00:05:56.715+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-05T00:05:56.719+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): analyze_data> on 2025-11-04 00:00:00+00:00
+[2025-11-05T00:05:56.722+0000] {standard_task_runner.py:72} INFO - Started process 137 to run task
+[2025-11-05T00:05:56.723+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_pipeline_dag', 'analyze_data', 'scheduled__2025-11-04T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/retail_pipeline_dag.py', '--cfg-path', '/tmp/tmpq2tqk1pi']
+[2025-11-05T00:05:56.724+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask analyze_data
+[2025-11-05T00:05:56.740+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_pipeline_dag.analyze_data scheduled__2025-11-04T00:00:00+00:00 [running]> on host b3f73153904a
+[2025-11-05T00:05:56.762+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kedar' AIRFLOW_CTX_DAG_ID='retail_pipeline_dag' AIRFLOW_CTX_TASK_ID='analyze_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-04T00:00:00+00:00'
+[2025-11-05T00:05:56.763+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-05T00:05:56.769+0000] {base.py:84} INFO - Retrieving connection 'local_postgres'
+[2025-11-05T00:05:56.772+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/providers/common/sql/hooks/sql.py:283: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2025-11-05T00:05:56.878+0000] {logging_mixin.py:190} INFO - Saved plot to /opt/***/analysis/avg_order_value_by_segment.png
+[2025-11-05T00:05:56.878+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-11-05T00:05:56.882+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-05T00:05:56.882+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retail_pipeline_dag, task_id=analyze_data, run_id=scheduled__2025-11-04T00:00:00+00:00, execution_date=20251104T000000, start_date=20251105T000556, end_date=20251105T000556
+[2025-11-05T00:05:56.910+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-05T00:05:56.920+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-05T00:05:56.920+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
