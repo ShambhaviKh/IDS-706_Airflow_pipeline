@@ -14,7 +14,7 @@ his project implements a **retail ETL pipeline** using **Apache Airflow**. The p
 
 ---
 
-## ⚙️ DAG Workflow
+## DAG Workflow
 
 ### Task Groups and Sequence
 
@@ -86,7 +86,7 @@ his project implements a **retail ETL pipeline** using **Apache Airflow**. The p
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Install Prerequisites
 - Python 3.8+
@@ -149,6 +149,21 @@ airflow tasks logs retail_pipeline_dag process_orders 2024-11-05
 | Analytics Chart      | `analysis/spend_profit_by_group.png`    |
 | Database Table       | `fact_customer_products` in PostgreSQL  |
 | Redis Cache          | `product_group:{group}`, `last_update`  |
+ 
+ ---
 
-![Visualisation](analysis/spend_profit_by_group.png)
+## Visualisation- 
+
+![Visualisation](analysis/avg_order_value_by_segment.png)
+
+---
+
+## Screenshots of Dag and Airflow pipeline functioning- 
+![AirflowUIrun](images-airflow/runs.png)
+![DAG](images-airflow/success.png)
+
+
+
+
+
 
