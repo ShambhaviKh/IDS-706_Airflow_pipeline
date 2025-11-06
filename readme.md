@@ -153,6 +153,7 @@ airflow tasks logs retail_pipeline_dag process_orders 2024-11-05
  ---
 
 ### Visualisation- 
+"Note: Some countries do not display all spend segments because no data was available for those categories."
 
 ![Visualisation](analysis/avg_order_value_by_segment.png)
 
