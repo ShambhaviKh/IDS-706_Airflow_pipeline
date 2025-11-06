@@ -1096,3 +1096,73 @@ ModuleNotFoundError: No module named 'matplotlib'
 [2025-11-06T03:54:49.135+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:54:49.135+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2025-11-06T03:54:49.142+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:54:49.142+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
 [2025-11-06T03:54:49.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.313 seconds
+[2025-11-06T03:55:19.438+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:55:19.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:55:19.441+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:55:19.440+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:55:19.714+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:55:19.722+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:55:19.722+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:55:19.728+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:55:19.728+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:55:19.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.299 seconds
+[2025-11-06T03:55:49.981+0000] {processor.py:157} INFO - Started process (PID=179) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:55:49.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:55:49.984+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:55:49.984+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:55:50.269+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:55:50.287+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:55:50.287+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:55:50.303+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:55:50.303+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:55:50.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.336 seconds
+[2025-11-06T03:56:20.591+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:56:20.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:56:20.595+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:56:20.595+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:56:20.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:56:20.898+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:56:20.898+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:56:20.905+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:56:20.904+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:56:20.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.323 seconds
+[2025-11-06T03:56:51.204+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:56:51.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:56:51.207+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:56:51.207+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:56:51.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:56:51.499+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:56:51.499+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:56:51.505+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:56:51.505+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:56:51.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.311 seconds
+[2025-11-06T03:57:21.785+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:57:21.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:57:21.788+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:57:21.787+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:57:22.067+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:57:22.075+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:57:22.075+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:57:22.082+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:57:22.082+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:57:22.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.305 seconds
+[2025-11-06T03:57:52.364+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:57:52.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:57:52.366+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:57:52.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:57:52.643+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:57:52.652+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:57:52.652+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:57:52.659+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:57:52.659+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:57:52.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.304 seconds
+[2025-11-06T03:58:22.938+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:58:22.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:58:22.941+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:58:22.941+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:58:23.223+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:58:23.232+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:58:23.232+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:58:23.238+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:58:23.238+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:58:23.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.310 seconds
+[2025-11-06T03:58:53.525+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:58:53.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:58:53.529+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:58:53.528+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:58:53.832+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:58:53.841+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:58:53.841+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:58:53.848+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:58:53.848+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:58:53.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.332 seconds
+[2025-11-06T03:59:24.132+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:59:24.132+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:59:24.134+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:59:24.134+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:59:24.406+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:59:24.415+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:59:24.414+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:59:24.421+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:59:24.421+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:59:24.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.299 seconds
+[2025-11-06T03:59:54.702+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:59:54.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/retail_pipeline_dag.py for tasks to queue
+[2025-11-06T03:59:54.705+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:59:54.705+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:59:54.976+0000] {processor.py:839} INFO - DAG(s) dict_keys(['retail_pipeline_dag']) retrieved from /opt/airflow/dags/retail_pipeline_dag.py
+[2025-11-06T03:59:54.985+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:59:54.985+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-11-06T03:59:54.991+0000] {logging_mixin.py:151} INFO - [2025-11-06T03:59:54.991+0000] {dag.py:3696} INFO - Setting next_dagrun for retail_pipeline_dag to 2025-11-06T00:00:00+00:00, run_after=2025-11-07T00:00:00+00:00
+[2025-11-06T03:59:54.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/retail_pipeline_dag.py took 0.299 seconds

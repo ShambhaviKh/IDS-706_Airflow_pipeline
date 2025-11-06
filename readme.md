@@ -2,7 +2,7 @@
 
 ## Overview
 
-his project implements a **retail ETL pipeline** using **Apache Airflow**. The pipeline extracts, transforms, and loads retail order and product data, performs analysis, generates visualizations, and caches insights in Redis for quick access.  
+This project implements a **retail ETL pipeline** using **Apache Airflow**. The pipeline extracts, transforms, and loads retail order and product data, performs analysis, generates visualizations, and caches insights in Redis for quick access.  
 
 **Key Features**:
 - Automated ETL workflow with Airflow
@@ -116,7 +116,7 @@ airflow connections add 'local_postgres' \
 ```
 
 ### Start Airflow
-# Using Docker Compose
+### Using Docker Compose
 ```bash
 docker-compose up -d
 ```
@@ -127,16 +127,16 @@ docker-compose up -d
 3. Trigger manually or wait for scheduled run
 
 ### Monitoring & Debugging 
-# List DAGs
+### List DAGs
 ```bash
 airflow dags list
 ```
 
-# Check DAG state
+### Check DAG state
 ```bash
 airflow dags state retail_pipeline_dag
 ```
-# View task logs
+#### View task logs
 ```bash
 airflow tasks logs retail_pipeline_dag process_orders 2024-11-05
 ```
@@ -152,15 +152,25 @@ airflow tasks logs retail_pipeline_dag process_orders 2024-11-05
  
  ---
 
-## Visualisation- 
+### Visualisation- 
 
 ![Visualisation](analysis/avg_order_value_by_segment.png)
 
 ---
 
-## Screenshots of Dag and Airflow pipeline functioning- 
+### Screenshots of Dag and Airflow pipeline functioning- 
 ![AirflowUIrun](images-airflow/runs.png)
 ![DAG](images-airflow/success.png)
+
+### Future Scope
+
+1. **Real-Time Data Processing & Scalability**  
+   - Integrate streaming data sources (Kafka, AWS Kinesis, etc.) to process orders and product updates in real-time.  
+   - Use **PySpark** for distributed processing of large datasets, enabling faster and more scalable ETL pipelines.
+
+2. **Advanced Analytics & Machine Learning**  
+   - Implement predictive analytics to forecast sales, identify high-value customers, or recommend products, turning historical data into actionable business insights.
+
 
 
 
